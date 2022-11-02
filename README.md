@@ -68,3 +68,38 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+    <div className="counter-container">
+      <button className="counter-button">-</button>
+      <div className="counter-text">0</div>
+      <button className="counter-button">+</button>
+    </div>
+
+
+.counter-container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.counter-button {
+    padding: 12px;
+    font-size: 32px;
+    width: 68px;
+    cursor: pointer;
+    border-radius: 6px;
+    border: 1px solid #eeeeee;
+    background-color: #eeeeee;
+}
+
+.counter-button:hover {
+    background-color: #e1e1e1;
+}
+
+.counter-text {
+    font-size: 48px;
+}
