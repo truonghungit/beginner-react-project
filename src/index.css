@@ -7,6 +7,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+@font-face {
+  font-family: 'Digital7';
+  src: url(./fonts/Digital7-rg1mL.ttf);
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
